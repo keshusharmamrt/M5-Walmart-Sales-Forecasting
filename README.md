@@ -1,7 +1,7 @@
 # M5-Walmart-Sales-Forecasting
 This is Kaggle Competition for predicting next 28 data sales for products in 3 states od United States (California, Texas, and Wisconsin)
 
-This Competition consist of sales data of 10 stores each having 30490 products from year 2011-01-29 to 22-05-2016.Out of this last 28 days are used as test data for Public Score Evaluation and next 28 days after them 23-05-2016 to 19-06-2016 are used for Private Score Evaluation in this Competition.<br/>In this Competition are using Weighted Root Mean Squared Scaled Error(WRMSSE) as evaluation metric. There are some Traditional Statistical Approcahes Like ARIMA,ARIMAX etc. But Here We Will Try various Machine Learning Models For Predicting 28 days sales.
+This Competition consist of sales data of 10 stores each having 30490 products from year 2011-01-29 to 22-05-2016.Out of this last 28 days are used as test data for Public Score Evaluation and next 28 days after them 23-05-2016 to 19-06-2016 are used for Private Score Evaluation in this Competition.<br/>In this Competition are using Weighted Root Mean Squared Scaled Error(WRMSSE) as evaluation metric.There are some Traditional Statistical Approcahes Like ARIMA,ARIMAX etc. But Here We Will Try various Machine Learning Models For Predicting 28 days sales.
 
 
 
@@ -12,6 +12,7 @@ They have given Several Files like:-
 <br/>sales_train_evaluation.csv - Includes sales [d_1 - d_1941] (labels used for the Public leaderboard)
 
 More information on:https://www.kaggle.com/c/m5-forecasting-accuracy/overview  or the Notebooks given in Notebooks Folder in this repository
+
  In this Repository there are following notebooks:-
  <br/>1. EDA.ipynb :- This Notebook describes all Exploratory data Analysis done on data and preperation/combining of data provided in kaggle for futher processing.In this we have given several plot to see how sales are varying according to state,category,department etc.
  <br/>2. FeatureEngineering.ipynb :- This Notebook describe all Feature Engineering we have done on the data.We have varoius time series and date related done feature engineering in this notebook.
